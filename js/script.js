@@ -76,10 +76,11 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 
 const loaderBody = document.querySelector(".loader-body"),
-  boxes = document.querySelector(".boxes");
+  boxes = document.querySelectorAll("section");
 
 function Loader() {
   loaderBody.classList.add("active-loader");
-  boxes.classList.remove("active-loader");
-  console.log("hello");
+  boxes.forEach((item) => {
+    item.classList.remove("active-loader");
+  });
 }
