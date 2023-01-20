@@ -70,3 +70,16 @@ smallMenuBarBtn.addEventListener("click", (e) => {
     console.log(true);
   });
 });
+
+window.addEventListener("DOMContentLoaded", () => {
+  setTimeout(Loader, 5000);
+});
+
+const loaderBody = document.querySelector(".loader-body"),
+  boxes = document.querySelector(".boxes");
+
+function Loader() {
+  loaderBody.classList.add("active-loader");
+  boxes.classList.remove("active-loader");
+  console.log("hello");
+}
