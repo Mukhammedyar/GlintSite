@@ -48,39 +48,39 @@ $(document).ready(function () {
 /* menu-bar-hidden 
 btn-close
 menu-hidden-btn
-*/
-const menuHidden = document.querySelector(".menu-bar-hidden"),
-  smallMenuBar = document.querySelector(".hidden-sm-menu-bar"),
-  btnClose = document.querySelector(".close"),
-  smallCloseBtn = document.querySelector(".sm-close-button"),
-  menuHiddenBtn = document.querySelector(".menu-hidden-btn"),
-  smallMenuBarBtn = document.querySelector(".menu");
+// */
+// const menuHidden = document.querySelector(".menu-bar-hidden"),
+//   smallMenuBar = document.querySelector(".hidden-sm-menu-bar"),
+//   btnClose = document.querySelector(".close"),
+//   smallCloseBtn = document.querySelector(".sm-close-button"),
+//   menuHiddenBtn = document.querySelector(".menu-hidden-btn"),
+//   smallMenuBarBtn = document.querySelector(".menu");
 
-menuHiddenBtn.addEventListener("click", (e) => {
-  menuHidden.classList.add("active-hidden-menu");
+// menuHiddenBtn.addEventListener("click", (e) => {
+//   menuHidden.classList.add("active-hidden-menu");
 
-  btnClose.addEventListener("click", (e) => {
-    menuHidden.classList.remove("active-hidden-menu");
-  });
-});
-smallMenuBarBtn.addEventListener("click", (e) => {
-  smallMenuBar.classList.add("active-hidden-menu");
-  smallCloseBtn.addEventListener("click", (e) => {
-    smallMenuBar.classList.remove("active-hidden-menu");
-    console.log(true);
-  });
-});
+//   btnClose.addEventListener("click", (e) => {
+//     menuHidden.classList.remove("active-hidden-menu");
+//   });
+// });
+// smallMenuBarBtn.addEventListener("click", (e) => {
+//   smallMenuBar.classList.add("active-hidden-menu");
+//   smallCloseBtn.addEventListener("click", (e) => {
+//     smallMenuBar.classList.remove("active-hidden-menu");
+//     console.log(true);
+//   });
+// });
 
-window.addEventListener("DOMContentLoaded", () => {
-  setTimeout(Loader, 5000);
-});
+// window.addEventListener("DOMContentLoaded", () => {
+//   setTimeout(Loader, 5000);
+// });
 
-const loaderBody = document.querySelector(".loader-body"),
-  boxes = document.querySelectorAll("section");
+// const loaderBody = document.querySelector(".loader-body"),
+//   boxes = document.querySelectorAll("section");
 
-function Loader() {
-  loaderBody.classList.add("active-loader");
-  boxes.forEach((item) => {
-    item.classList.remove("active-loader");
-  });
-}
+// function Loader() {
+//   loaderBody.classList.add("active-loader");
+//   boxes.forEach((item) => {
+//     item.classList.remove("active-loader");
+//   });
+// }
