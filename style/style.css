@@ -116,7 +116,6 @@ p {
   justify-content: center;
   position: relative;
 }
-
 .nav-item li,
 .home,
 .pages {
@@ -249,7 +248,6 @@ p {
   opacity: 0;
   transition: all 10s ease;
 }
-
 .menu-bar-body {
   background: black;
   width: 100%;
@@ -331,7 +329,6 @@ p {
 }
 
 /*================ Small Menu bar============= */
-
 .hidden-sm-menu-bar {
   display: none;
   opacity: 0;
@@ -367,7 +364,6 @@ p {
   height: 100%;
   width: 100%;
 }
-
 .top-menu-bar-item {
   display: flex;
   justify-content: center;
@@ -384,14 +380,12 @@ p {
 .top-menu-bar-item i {
   color: rgba(255, 255, 255, 0.7);
 }
-
 .sm-menu-item {
   width: 100%;
   padding: 15px;
   font-size: larger;
   font-weight: 700;
 }
-
 .sm-menu-item:hover,
 .top-menu-bar-item:hover,
 .top-menu-bar-item i:hover {
@@ -399,7 +393,6 @@ p {
   transition: all 0.5s ease;
   background: #2c2c2c;
 }
-
 .active-hidden-menu {
   right: 0%;
   display: grid;
@@ -443,7 +436,6 @@ p {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-
 .head-left {
   height: 100%;
   display: flex;
@@ -460,7 +452,6 @@ p {
 div.owl-nav.disabled {
   display: none;
 }
-
 .head-left h1 {
   font-size: 55px;
   padding: 20px 0 !important;
@@ -513,7 +504,6 @@ div.owl-nav.disabled {
   color: var(--green-color);
   transition: all 0.5s ease;
 }
-
 .head-btn {
   width: 300px;
   margin-top: 20px;
@@ -528,14 +518,11 @@ div.owl-nav.disabled {
   font-size: 1.5rem;
   margin: 0 5px;
 }
-
 .green-color {
   color: var(--green-color);
 }
 .right-image {
   height: 100%;
-  width: 50%;
-  flex-basis: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -567,7 +554,6 @@ div.owl-nav.disabled {
   grid-gap: 15px;
   margin-bottom: 30px;
 }
-
 /* .second-part-video-images .second-left-image,.second-right-text{
     flex-basis: 50%;
     width: 50%;
@@ -693,7 +679,6 @@ div.owl-nav.disabled {
   font-weight: 900;
   font-family: sans-serif;
 }
-
 .right-main-text {
   font-size: 1.5rem;
   font-weight: 500;
@@ -1162,6 +1147,9 @@ div.owl-nav.disabled {
   font-size: 1.2rem;
   margin: 10px;
   border: 1px solid var(--green-color);
+}
+.subs-input:focus {
+  outline: none;
 }
 .subs-button {
   width: 200px;

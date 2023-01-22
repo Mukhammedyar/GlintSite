@@ -1,7 +1,56 @@
+@media screen and (min-width: 1200px) {
+  .container,
+  .nav-one {
+    padding: 0 0%;
+  }
+  .head-left {
+    height: 100%;
+    display: flex;
+    padding: 0 !important;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .line-head-menu-text {
+    border-left: 2px solid var(--green-color);
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+  }
+  .head-left h1 {
+    font-size: 3rem;
+  }
+  .head-btn {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: -100%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+  }
+  .card .card-title {
+    text-align: center;
+    font-size: 1.2rem;
+    padding-bottom: 5px;
+    font-weight: 550;
+  }
+  .card .card-text {
+    font-size: 1.7rem;
+    padding: 10px 0;
+    font-weight: 550;
+  }
+  .card .card-describtion {
+    font-size: 1.2rem;
+    padding-top: 5px;
+    line-height: 25px;
+  }
+}
+
 @media screen and (min-width: 990px) {
   .container,
   .nav-one {
-    padding: 0 10% !important;
+    padding: 0 10%;
   }
   .head-left {
     height: 100%;
@@ -24,6 +73,16 @@
   }
   .head-left h1 {
     font-size: 55px;
+  }
+  .head-btn {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: -40%;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
   }
   .main-cards {
     width: 100%;
@@ -411,6 +470,34 @@
   }
 }
 @media screen and (max-width: 575px) {
+  .container {
+    width: 100%;
+    overflow: hidden;
+  }
+  .logo-navbar img {
+    width: 100px;
+  }
+  .head-left h1 {
+    font-size: 33px;
+    padding: 20px 0 !important;
+  }
+  .line-head-menu-text {
+    border-left: 2px solid var(--green-color);
+    padding: 10px !important;
+    font-size: 0.9rem;
+    line-height: 20px;
+  }
+  .head-btn {
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 0% !important;
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+  }
+
   .main-cards {
     width: 100%;
     display: grid;
@@ -553,5 +640,15 @@
     width: 230px;
     margin: auto;
     font-size: 1rem;
+  }
+  .subs-input {
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    background: var(--port-slides);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: 1px solid var(--green-color);
   }
 }
