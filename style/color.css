@@ -31,7 +31,6 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 font-family: var(--font);
-cursor: pointer;
 }
 html{
 scroll-behavior: smooth;
@@ -81,10 +80,6 @@ body{
     justify-content: center;
 }
 
-.basis-50{
-    width: 50%;
-    flex-basis: 50%;
-}
 .d-f{
     display: flex;
 }
